@@ -14,8 +14,7 @@ Este es un proyecto de React que implementa un contador con funcionalidades de i
 Primero, clona el repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/contador-app.git
-cd contador-app 
+git clone https://github.com/tu-usuario/Counter.git
 
 ```
 
