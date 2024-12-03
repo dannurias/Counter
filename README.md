@@ -29,10 +29,12 @@ cd contador-app
 
 ```bash
 
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss 
 npx tailwindcss init
 
 ```
+
+https://tailwindcss.com/docs/installation consulta en su documentacion
 
 - Luego, agrega las directivas de Tailwind en el archivo src/index.css
 
