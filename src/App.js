@@ -5,7 +5,7 @@ import Counter from './components/Counter';
 
 function App() {
   return (
-    <div className="min-h-screen bg-pink-300">
+    <div className="min-h-screen bg-gray-200">
       <Header
         title="Contador"
       />
@@ -14,8 +14,9 @@ function App() {
           <h2 className="text-lg font-semibold mb-2">Funcion</h2>
           <p>
             Este componente utiliza el hook useState para manejar
-            el contador. Haz clic en "Incrementar" para aumentar el
-            número o en "Restablecer" para volver a 0.
+            el contador. Haz clic en "Incrementar +1" para aumentar el
+            número una ves, haz clic en "Incrementar +2" para aumentar el
+            número 2 veces en "Restablecer" para volver a 0.
           </p>
         </Section>
         <Section>
