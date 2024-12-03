@@ -13,28 +13,44 @@ Este es un proyecto de React que implementa un contador con funcionalidades de i
 ### 1. Clonar el repositorio
 Primero, clona el repositorio en tu máquina local:
 
-bash
+```bash
 git clone https://github.com/tu-usuario/contador-app.git
 cd contador-app 
 
+```
+
 
 ### 2. Instala las dependencias necesarias con npm
+```bash
  npm install
+ ```
 
 ### 3.  Configurar Tailwind CSS
+
+```bash
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 
+```
+
 - Luego, agrega las directivas de Tailwind en el archivo src/index.css
+
+```bash
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+```
+
 ### 4. Ejecuta el proyecto
 
+```bash
+
 npm start
+
+```
 
 
 ## Estructura 
